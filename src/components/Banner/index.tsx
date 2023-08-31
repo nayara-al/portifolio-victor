@@ -3,10 +3,10 @@ import foto from "../../../public/assets/Victor.png";
 import Button from "../Button";
 export const Banner = () => {
   return (
-    <div className="w-full px-8 py-12 bg-azul-escuro h-auto flex flex-col items-center justify-center gap-8">
-      <div className=" flex gap-4">
-        <div className="flex flex-col items-center justify-center">
-          <h1 className="text-white font-extrabold text-[24px]">
+    <div className="w-full p-12 bg-azul-escuro h-auto flex flex-col items-center justify-center gap-8">
+      <div className=" flex gap-24">
+        <div className="flex flex-col items-center justify-center w-[420px]">
+          <h1 className="text-white font-extrabold text-[32px]">
             Olá, sou Victor
           </h1>
           <p className="text-center">
@@ -16,10 +16,10 @@ export const Banner = () => {
           </p>
         </div>
         <div className="bg-gradient-to-r from-verde-android to-green-800 rounded-full border border-solid border-1">
-          <Image src={foto} alt="Foto de Victor" className="rounded-full" />
+          <Image src={foto} alt="Foto de Victor" className="rounded-full" height={200} width={200} />
         </div>
       </div>
-      <Button>Ver Mais</Button>
+      <Button buttonType="primary" buttonColor="verde">Ver Mais</Button>
     </div>
   );
 };

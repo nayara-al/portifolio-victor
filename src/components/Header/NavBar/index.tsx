@@ -5,7 +5,7 @@ export default function NavBar(...rest: any) {
         <li>Início</li>
         <li>Sobre mim</li>
         <li>Projetos</li>
-        <li>Certificações</li>
+        <li>Cursos</li>
       </ul>
     </nav>
   );
