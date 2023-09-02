@@ -14,7 +14,7 @@ export default function MyProjects() {
   };
   return (
     <section className="bg-cinza py-4 text-center">
-      <h2 className="font-semibold text-[24px]">Meus projetos</h2>
+      <h2 className="font-semibold text-[24px] text-white">Meus projetos</h2>
       <div className="flex gap-6 justify-center my-8">
         {projects.map((project, index) => (
           <CardProjects

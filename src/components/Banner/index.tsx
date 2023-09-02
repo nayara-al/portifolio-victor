@@ -9,7 +9,7 @@ export const Banner = () => {
           <h1 className="text-white font-extrabold text-[32px]">
             Olá, sou Victor
           </h1>
-          <p className="text-center">
+          <p className="text-center text-white">
             Sou desenvolvedor mobile, com foco no desenvolvimento de android
             nativo. Gosto de criar aplicações utlizando Kotlin, mas também posso
             criar com a linguagem legado Java
