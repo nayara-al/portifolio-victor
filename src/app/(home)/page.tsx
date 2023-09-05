@@ -1,13 +1,13 @@
-import { Banner } from "@/components/Banner";
 import Cursos from "@/components/Cursos";
-import { Header } from "@/components/Header";
-import MyProjects from "@/components/MyProjects";
+import Header from "@/components/common/Header";
+import BannerHome from "@/components/pageComponents/home/Banner";
+import MyProjects from "@/components/pageComponents/home/MyProjects";
 
 export default function Home() {
     return(
         <>
             <Header />
-            <Banner />
+            <BannerHome id="bannerHome"/>
             <MyProjects />
             <Cursos />
         </>
