@@ -1,10 +1,13 @@
 import Image from "next/image";
-import foto from "../../../public/assets/Victor.png";
-import Button from "../Button";
-export const Banner = () => {
+import foto from "../../../../../public/assets/Victor.png";
+import { BannerBase } from "@/components/common/Banner";
+import React from "react";
+import Button from "@/components/Button";
+
+export default function BannerHome(...rest: any[]) {
   return (
-    <div className="w-full p-12 bg-azul-escuro h-auto flex flex-col items-center justify-center gap-8">
-      <div className=" flex gap-24">
+    <BannerBase>
+      <div {...rest} className=" flex gap-24">
         <div className="flex flex-col items-center justify-center w-[420px]">
           <h1 className="text-white font-extrabold text-[32px]">
             Olá, sou Victor
@@ -16,10 +19,18 @@ export const Banner = () => {
           </p>
         </div>
         <div className="bg-gradient-to-r from-verde-android to-green-800 rounded-full border border-solid border-1">
-          <Image src={foto} alt="Foto de Victor" className="rounded-full" height={200} width={200} />
+          <Image
+            src={foto}
+            alt="Foto de Victor"
+            className="rounded-full"
+            height={200}
+            width={200}
+          />
         </div>
       </div>
-      <Button buttonType="primary" buttonColor="verde">Ver Mais</Button>
-    </div>
+      <Button buttonType="primary" buttonColor="verde">
+        Ver Mais
+      </Button>
+    </BannerBase>
   );
-};
+}
