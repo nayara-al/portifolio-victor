@@ -1,4 +1,4 @@
-import Button from "@/components/Button";
+import Button from "@/components/common/Button";
 import Image from "next/image";
 import { ReactNode } from "react";
 interface ICardProject {

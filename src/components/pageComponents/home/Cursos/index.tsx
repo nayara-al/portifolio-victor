@@ -1,4 +1,4 @@
-import Button from "../Button";
+import Button from "@/components/common/Button";
 import Dropdown from "./DropDown";
 import { cursos } from "./cursos";
 

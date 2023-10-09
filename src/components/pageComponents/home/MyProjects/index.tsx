@@ -3,7 +3,7 @@ import kotlinImg from "../../../../../public/assets/Kotlin_Icon.png";
 import jetpackImg from "../../../../../public/assets/jetpack.png";
 import CardProjects from "./CardProjects";
 import Image from "next/image";
-import Button from "@/components/Button";
+import Button from "@/components/common/Button";
 export default function MyProjects() {
   const langTech = (lang: any) => {
     if (lang == "Kotlin") {
