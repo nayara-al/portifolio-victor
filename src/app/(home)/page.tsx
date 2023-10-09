@@ -8,8 +8,8 @@ export default function Home() {
         <>
             <Header />
             <BannerHome id="bannerHome"/>
-            <MyProjects />
-            <Cursos />
+            <MyProjects id="projetos"/>
+            <Cursos id="cursos"/>
         </>
     )
 }
