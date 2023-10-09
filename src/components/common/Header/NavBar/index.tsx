@@ -16,11 +16,15 @@ export default function NavBar(...rest: any) {
         <Link href="/">
           <li>Início</li>
         </Link>
-        <Link href={router === "/" ? "#sobreMim" : "/sobre-mim"}>
+        <Link href={"/sobre-mim"}>
           <li>Sobre mim</li>
         </Link>
-        <li>Projetos</li>
-        <li>Cursos</li>
+        <Link href={"/projetos"}>
+          <li>Projetos</li>
+        </Link>
+        <Link href={"/cursos"}>
+          <li>Cursos</li>
+        </Link>
       </ul>
     </nav>
   );

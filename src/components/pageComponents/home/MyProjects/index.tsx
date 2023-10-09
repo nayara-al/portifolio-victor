@@ -4,7 +4,7 @@ import jetpackImg from "../../../../../public/assets/jetpack.png";
 import CardProjects from "./CardProjects";
 import Image from "next/image";
 import Button from "@/components/common/Button";
-export default function MyProjects() {
+export default function MyProjects(...rest: any[]) {
   const langTech = (lang: any) => {
     if (lang == "Kotlin") {
       return kotlinImg;
