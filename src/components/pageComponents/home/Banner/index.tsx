@@ -1,14 +1,14 @@
 import Image from "next/image";
 import foto from "../../../../../public/assets/Victor.png";
-import { BannerBase } from "@/components/common/Banner";
+import { BannerBase } from "components/common/Banner";
 import React from "react";
-import Button from "@/components/common/Button";
+import Button from "components/common/Button";
 
 export default function BannerHome(...rest: any[]) {
   return (
     <BannerBase>
-      <div {...rest} className=" flex gap-24">
-        <div className="flex flex-col items-center justify-center w-[420px]">
+      <div {...rest} className=" flex gap-24 max-md:flex-wrap max-md:items-center max-md:justify-center max-md:gap-8">
+        <div className="flex flex-col items-center justify-center w-[420px] max-md:order-2">
           <h1 className="text-white font-extrabold text-[32px]">
             Olá, sou Victor
           </h1>
@@ -22,7 +22,7 @@ export default function BannerHome(...rest: any[]) {
           <Image
             src={foto}
             alt="Foto de Victor"
-            className="rounded-full"
+            className="rounded-full w-full h-full object-cover overflow-hidden"
             height={200}
             width={200}
           />

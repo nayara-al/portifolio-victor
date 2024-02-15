@@ -1,15 +1,16 @@
-import pokedex from "../../../public/assets/pokedex.png"
 export const projects = [
   {
     imageSrc: "/assets/pokedex.png",
     imageAlt: "Imagem do projeto",
-    title: "PokeApp", 
-    tech: ["Jetpack", "Kotlin"] 
+    title: "Projeto novo chegando", 
+    tech: ["Jetpack", "Kotlin"], 
+    github: "linkdeprojeto",
   },
   {
     imageSrc: "/assets/pokedex.png",
     imageAlt: "Imagem do projeto",
-    title: "PokeApp",
-    tech: ["Jetpack"] 
+    title: "Projeto novo chegando",
+    tech: ["Jetpack"],
+    github: "linkdeprojeto",
   }
 ];

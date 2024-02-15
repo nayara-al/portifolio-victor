@@ -1,3 +1,4 @@
+import Header from "components/common/Header";
 import "./globals.css";
 import type { Metadata } from "next";
 import { Inter } from "next/font/google";
@@ -25,7 +26,10 @@ export default function RootLayout({
 }) {
   return (
     <html lang="pt-Br">
-      <body className={poppins.className}>{children}</body>
+      <body className={poppins.className}>
+        <Header />
+        {children}
+      </body>
     </html>
   );
 }

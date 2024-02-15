@@ -1,6 +1,7 @@
 import Image from "next/image";
 import Android from "../../../../public/assets/android.png";
 import NavBar from "./NavBar";
+import NavBarMobile from "./NavBarMobile";
 
 export default function Header() {
   return (
@@ -8,6 +9,7 @@ export default function Header() {
       <Image src={Android} alt="logo android" className="w-10 ml-4" />
       <div className="flex flex-grow justify-center">
         <NavBar className="text-white"/>
+        <NavBarMobile />
       </div>
     </div>
   );

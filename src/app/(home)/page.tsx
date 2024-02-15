@@ -1,13 +1,13 @@
-import Header from "@/components/common/Header";
-import BannerHome from "@/components/pageComponents/home/Banner";
-import Cursos from "@/components/pageComponents/home/Cursos";
-import MyProjects from "@/components/pageComponents/home/MyProjects";
+import BannerHome from "components/pageComponents/home/Banner";
+import Cursos from "components/pageComponents/home/Cursos";
+import MyProjects from "components/pageComponents/home/MyProjects";
+import TechStack from "components/pageComponents/home/TechStack";
 
 export default function Home() {
     return(
         <>
-            <Header />
             <BannerHome id="bannerHome"/>
+            <TechStack />
             <MyProjects id="projetos"/>
             <Cursos id="cursos"/>
         </>

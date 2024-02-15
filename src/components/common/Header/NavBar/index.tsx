@@ -1,4 +1,4 @@
-"use client"
+"use client";
 import Link from "next/link";
 import { usePathname } from "next/navigation";
 import { useEffect } from "react";
@@ -11,7 +11,7 @@ export default function NavBar(...rest: any) {
     }
   }, [router]);
   return (
-    <nav {...rest}>
+    <nav {...rest} className="max-md:hidden">
       <ul className="flex flex-row gap-4 text-white">
         <Link href="/">
           <li>Início</li>
