@@ -1,6 +1,6 @@
-import Button from "components/common/Button";
+import Button from "components/Button";
 import Dropdown from "./DropDown";
-import { cursos } from "./cursos";
+import { cursos } from "data/cursos";
 
 export default function Cursos(...rest: any[]) {
   return (

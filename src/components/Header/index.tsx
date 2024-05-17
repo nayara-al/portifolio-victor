@@ -1,5 +1,5 @@
 import Image from "next/image";
-import Android from "../../../../public/assets/android.png";
+import Android from "assets/png/android.png";
 import NavBar from "./NavBar";
 import NavBarMobile from "./NavBarMobile";
 

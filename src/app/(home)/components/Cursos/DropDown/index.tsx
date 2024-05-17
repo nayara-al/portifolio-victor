@@ -1,6 +1,6 @@
 'use client'
 import React, { useState } from 'react';
-import { ICurso } from '../cursos';
+import { ICurso } from '../../../../../data/cursos';
 
 interface CursoListProps {
   cursos: ICurso[];

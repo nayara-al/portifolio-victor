@@ -1,8 +1,8 @@
 import Image from "next/image";
-import foto from "../../../../../public/assets/Victor.png";
-import { BannerBase } from "components/common/Banner";
+import foto from "assets/png/Victor.png";
+import { BannerBase } from "components/Banner";
 import React from "react";
-import Button from "components/common/Button";
+import Button from "components/Button";
 
 export default function BannerHome(...rest: any[]) {
   return (
