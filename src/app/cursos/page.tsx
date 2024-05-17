@@ -1,4 +1,4 @@
-import { BannerBase } from "components/common/Banner";
+import { BannerBase } from "components";
 
 export default function Cursos() {
   return (
